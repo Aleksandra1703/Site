@@ -1,94 +1,104 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Микрозаймы</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style1.css" />
 </head>
 <body>
-  <div class="container">
+  <header>
     <h1>Микрозаймы</h1>
+    <div class="form-wrapper">
     <div class="input-block">
-      <input type="text" placeholder="Сумма займа" value="1000 ₽">
-      <button>Показать</button>
+      <label for="loan" class="input-label">Сумма займа</label>
+      <div class="input-value">1000 ₽</div>
+    </div>
+    <button class="submit-btn">Показать</button>
+  </div>
+  </header>
+
+  <main class="cards">
+    <div class="card">
+      <div class="card-header">
+        <div class="logo">M</div>
+        <div>
+          <h2 id="moneyman1-title" class="title">MoneyMan 1</h2>
+          <p class="subtitle">Заем для новых клиентов</p>
+        </div>
+      </div>
+      <hr />
+      <div class="card-info">
+        <div><span>Сумма</span><b>1500 — 70 000 ₽</b></div>
+        <div><span>Срок</span><b>7 — 30 дн.</b></div>
+        <div><span>Ставка</span><b>от 0%</b></div>
+      </div>
+      <button id="moneyman1-btn" class="action-btn">Получить деньги</button>
     </div>
 
-    <div class="cards">
-      <div class="card">
-        <div class="header">
-          <div class="logo">M</div>
-          <div>
-            <h2>MoneyMan 1</h2>
-            <p>Заем для новых клиентов</p>
-          </div>
+    <div class="card">
+      <div class="card-header">
+        <div class="logo">M</div>
+        <div>
+          <h2 class="title">MoneyMan 2</h2>
+          <p class="subtitle">Заем для новых клиентов</p>
         </div>
-        <div class="info">
-          <div><span>Сумма</span><strong>1500 – 70 000 ₽</strong></div>
-          <div><span>Срок</span><strong>7 – 30 дн.</strong></div>
-          <div><span>Ставка</span><strong>от 0%</strong></div>
-        </div>
-        <button class="cta">Получить деньги</button>
       </div>
-	
-    <div class="cards">
-      <div class="card">
-        <div class="header">
-          <div class="logo">M</div>
-          <div>
-            <h2>MoneyMan 2</h2>
-            <p>Заем для новых клиентов</p>
-          </div>
-        </div>
-        <div class="info">
-          <div><span>Сумма</span><strong>1500 – 70 000 ₽</strong></div>
-          <div><span>Срок</span><strong>7 – 30 дн.</strong></div>
-          <div><span>Ставка</span><strong>от 0%</strong></div>
-        </div>
-        <button class="cta">Получить деньги</button>
+      <hr />
+      <div class="card-info">
+        <div><span>Сумма</span><b>1500 — 70 000 ₽</b></div>
+        <div><span>Срок</span><b>7 — 30 дн.</b></div>
+        <div><span>Ставка</span><b>от 0%</b></div>
       </div>
-	
-    <br><div class="cards">
-      <div class="card">
-        <div class="header">
-          <div class="logo">M</div>
-          <div>
-            <h2>MoneyMan 3</h2>
-            <p>Заем для новых клиентов</p>
-          </div>
-        </div>
-        <div class="info">
-          <div><span>Сумма</span><strong>1500 – 70 000 ₽</strong></div>
-          <div><span>Срок</span><strong>7 – 30 дн.</strong></div>
-          <div><span>Ставка</span><strong>от 0%</strong></div>
-        </div>
-        <button class="cta">Получить деньги</button>
-      </div>
-	
-    <div class="cards">
-      <div class="card">
-        <div class="header">
-          <div class="logo">M</div>
-          <div>
-            <h2>MoneyMan 4</h2>
-            <p>Заем для новых клиентов</p>
-          </div>
-        </div>
-        <div class="info">
-          <div><span>Сумма</span><strong>1500 – 70 000 ₽</strong></div>
-          <div><span>Срок</span><strong>7 – 30 дн.</strong></div>
-          <div><span>Ставка</span><strong>от 0%</strong></div>
-        </div>
-        <button class="cta">Получить деньги</button>
-      </div>
+      <button class="action-btn">Получить деньги</button>
     </div>
-    <footer>
-      © 2018–2022 ООО «Банк искусственного интеллекта». <br>
-      ОГРН: 1077746846882, адрес: 117638, г. Москва, улица Одесская, д. 2, этаж 19
-    </footer>
-  </div>
+
+    <div class="card">
+      <div class="card-header">
+        <div class="logo">M</div>
+        <div>
+          <h2 class="title">MoneyMan 3</h2>
+          <p class="subtitle">Заем для новых клиентов</p>
+        </div>
+      </div>
+      <hr />
+      <div class="card-info">
+        <div><span>Сумма</span><b>1500 — 70 000 ₽</b></div>
+        <div><span>Срок</span><b>7 — 30 дн.</b></div>
+        <div><span>Ставка</span><b>от 0%</b></div>
+      </div>
+      <button class="action-btn">Получить деньги</button>
+    </div>
+
+    <div class="card">
+      <div class="card-header">
+        <div class="logo">M</div>
+        <div>
+          <h2 class="title">MoneyMan 4</h2>
+          <p class="subtitle">Заем для новых клиентов</p>
+        </div>
+      </div>
+      <hr />
+      <div class="card-info">
+        <div><span>Сумма</span><b>1500 — 70 000 ₽</b></div>
+        <div><span>Срок</span><b>7 — 30 дн.</b></div>
+        <div><span>Ставка</span><b>от 0%</b></div>
+      </div>
+      <button class="action-btn">Получить деньги</button>
+    </div>
+  </main>
+
+  <footer>
+    <p>© 2018–2022 ООО «Банки.ру и Искусственный интеллект».<br/>
+    ОГРН: 1077763469882, адрес: 117638, г. Москва, улица Одесская, д. 2, этаж 19</p>
+  </footer>
+
   <script>
-    document.querySelectorAll('.card h2').forEach(el => console.log(el.textContent));
+    const btn = document.getElementById("moneyman1-btn");
+	const title = document.getElementById("moneyman1-title");
+	btn.addEventListener("click", function() {
+		console.log(title.innerText);
+	});
   </script>
 </body>
 </html>
